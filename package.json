@@ -1,0 +1,28 @@
+{
+  "name": "clear-changelog",
+  "version": "1.0.0",
+  "description": "clear changelog after commitizen",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/index.ts -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badygin-yakov/clear-changelog.git"
+  },
+  "author": "Yakov Badygin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/badygin-yakov/clear-changelog/issues"
+  },
+  "homepage": "https://github.com/badygin-yakov/clear-changelog#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.31.1",
+    "typescript": "^4.4.3"
+  }
+}

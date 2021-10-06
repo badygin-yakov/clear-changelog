@@ -1,0 +1,15 @@
+name: 'Prepare release message'
+description: 'Clear changelog after commitizen'
+inputs:
+  changelog:
+    description: 'Release changelog'
+    default: ''
+outputs:
+  changelog:
+    description: 'Cleared changelog'
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: git-pull-request
+  color: green
